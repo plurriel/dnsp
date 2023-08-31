@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/plurriel/dnsp#readme",
   "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
     "amqplib": "^0.10.3",
     "dns-query": "^0.11.2",
     "dotenv": "^16.3.1",
