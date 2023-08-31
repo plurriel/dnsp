@@ -1,0 +1,33 @@
+{
+  "name": "@plurriel/dnsp",
+  "version": "1.0.0",
+  "description": "DNS Poller infrastructure for Plurriel",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plurriel/dnsp.git"
+  },
+  "author": "Jerome Wang <immjs>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/plurriel/dnsp/issues"
+  },
+  "homepage": "https://github.com/plurriel/dnsp#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dns-query": "^0.11.2",
+    "dotenv": "^16.3.1",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/validator": "^13.11.1"
+  }
+}
